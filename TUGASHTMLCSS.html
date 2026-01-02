@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Tugashtmlcss</title>
+	</head>
+	<style>
+		
+		body {
+		margin: 0;
+		font-family: Arial;
+		background: #e5e5e5;
+		}
+		
+		.nav {
+		background: #2f2f2f;
+		color: white;
+		padding: 10px
+		}
+		
+		.hero {
+		background : linear-gradient(135deg, #2f2f2f, #6b6b6b);
+		color: white;
+		padding: 40px;
+		}
+		
+		.about, .skill, .project, .kontak {
+		background: linear-gradient(135deg, #2f2f2f, #6b6b6b);
+		color: white;
+		padding: 20px;
+		}
+		
+		.judul {
+		color: white;
+		}
+		
+		.kotak {
+		background: #8a8a8a;
+		color: black;
+		padding: 15px;
+		border-radius:6px;
+		margin: 5px;
+		}
+		
+		.card {
+		background: #dcdcdc;
+		color: black;
+		padding: 15px;
+		border-radius: 10px;
+		margin: 5px;
+
+		}
+		
+		
+		.kotak:hover {
+			background: #b5b5b5;
+		}
+
+		.card:hover {
+			background: #cfcfcf;
+		}
+
+
+		.judul::before {
+			content: "";
+			display: inline-block;
+			width: 6px;
+			height: 6px;
+			background: white;
+			margin-right: 8px;
+		}
+
+		.judul::after {
+			width: 30px;
+		}
+
+		.kontak p:hover {
+			text-decoration: underline;
+		}
+
+		.nav {
+	position: relative;
+	}
+
+	.nav::after {
+		content: "Home | About | Skill | Project | Kontak";
+		position: absolute;
+		right: 15px;
+		top: 12px;
+		height: 200;
+		font-size: 14px;
+		opacity: 0.8;
+	}
+
+	
+
+
+	</style>
+	<body>
+		<div class="nav">
+			<h3>Portofolio</h3>
+		</div>
+		
+		<div class="hero">
+			<h1>Perkenalkan Nama Saya Rezky</h1>
+			<p>Saya rombel PPLG X3<p>
+		</div>
+		
+		<div class="about">
+			<h2 class="judul">About Rezky</h2>
+		<p>Saya sedang menerapkan ilmu membuat website portofolio menggunakan HTML dan CSS</p>
+		</div>
+		
+		<div class="skill">
+		 	<h2 class="judul">Skill</h2>
+		<div class="isiskill">
+		 <div class="kotak">HTML</div>
+		  <div class="kotak">CSS</div>
+		   <div class="kotak">CMD</div>
+		    <div class="kotak">GIT</div>
+		</div>
+		</div>
+		
+		<div class="project">
+		 <h2 class="judul">Project</h2>
+		 <div class="isiproject">
+		 <div class="card">
+		 <p>Latihan HTML dasar</p>
+		 </div>
+		 <div class="card">
+		 <p>Layout Sederhama</p>
+		 </div>
+		 </div>
+		  </div>
+		  
+		  <div class="kontak">
+		  <h2 class="judul">Kontak</h2>
+		  <p>Nama : Muhammad Rezky Arsy Ramadhan</p>
+		   <p>NIS : 12511207</p>
+		    <p>Rombel : PPLG X3</p>
+		  </div>
+	</body>
+</html>
